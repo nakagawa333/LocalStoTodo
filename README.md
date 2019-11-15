@@ -1,0 +1,2 @@
+# LocalStoTodo
+LocalStorageのみを使ったTodoリスト
