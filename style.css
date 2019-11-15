@@ -1,0 +1,38 @@
+.alert_comment{
+  color:red;
+}
+
+.card_content{
+  margin-bottom:20px;
+  
+}
+
+.change_decoration{
+  color: #777777;
+  text-decoration: line-through;
+}
+
+.check_count{
+  display:flex;
+  padding-bottom:30px;
+}
+
+.Todo_count{
+  display:flex;
+}
+
+.Todos_num{
+  margin-right:20px;
+}
+
+.delete_trash{
+  display:none;
+}
+
+#todo_all_check{
+  display:flex;
+}
+
+.p_all_delete{
+  margin-top:-7px;
+}
