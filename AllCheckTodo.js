@@ -23,7 +23,7 @@ function AllCheckTodo(){
     `)
   }
 
-  AllDeleteClick(check_box);
+  AllDeleteClick();
 }
 
 function AddCheckTodo(){
@@ -36,13 +36,13 @@ function AddCheckTodo(){
     `)
   }
 
-  AllDeleteClick(check_box);
+   AllDeleteClick();
 }
 
+function AllDeleteClick(){
+  $(".checkbox_all").off("click");
+  $(".checkbox_all").on("click",function(){
 
-function AllDeleteClick(check_box){
-  $(check_box).off("click");
-  $(check_box).on("click",function(){
     let check_delete_confirm = $(`input[class^="checkbox_delete_confirm"]`);
 
     let delete_trash = $(".delete_trash");

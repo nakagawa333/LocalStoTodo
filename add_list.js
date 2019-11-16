@@ -8,6 +8,7 @@ $(function(){
   $("#add_todo").on("click",function(){
     AddCheckTodo();
 
+
     $(".add_advice").empty();
     $(this).attr("disabled",true);
 
